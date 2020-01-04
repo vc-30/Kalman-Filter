@@ -2,3 +2,19 @@
 
 
 ![Output Image](output.png)
+
+
+### System Setup
+Make sure your system have the following:
+1. CMake (>=3.5)
+2. matplotlib
+3. Eigen3
+
+### Building and running the code
+
+1. Create a build directory if doesn't exist. 
+2. cmake ..
+3. make -j$(nproc)
+4. ./kf_example
+
+
